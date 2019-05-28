@@ -70,3 +70,22 @@
 - srun -h -> see all the possible flags with srun command 
 - srun --pty <program name> -> run the program (most of the time, you will use bash which is the shell)
 - srun --pty -p interactive bash -> partition for allocation or else you run into error (at least for Yale it does)
+- srun --pty -p interactive -c 10 bash -> specify 10 cores
+- srun --pty -p interactive --mem=8g bash -> 8 gigabytes of memory
+
+### module load 
+- load software
+
+### sbatch 
+- run batch scripts
+
+### scp and rsync
+- copy scripts and data files between local computer and cluster
+- rsync -> synch large directories -> good for major copies of large files
+
+## Flags 
+- -c: core
+- -n: n specific n tasks
+
+
+
