@@ -43,7 +43,7 @@
 ## Interactive vs. Batch 
 ### Interactive 
 - like a remote session 
-- require an active connection 
+- require an active connection -> can't shut down local computer
 - for development, debugging, or interactive environments like R and Matlab 
 
 ### Batch Jobs 
@@ -51,4 +51,15 @@
 - can run many jobs simulatenously 
 - your best choice for production computing
 
+## Slurm -> Job scheduler 
+- interactive node allocation
+- Batch job submission 
+- specifying and reserving resources you need for your job 
+- Listing, running, and pending jobs 
+- cancelling jobs 
+- Grouping node resources into partitions 
+- Prioritizing and scheduling jobs 
 
+## Specifically for Yale clusters
+- request an account through [Account Request](https://research.computing.yale.edu/support/hpc/account-request)
+- Submit your SSH key -> follow the instructions here [Quick Start](http://docs.ycrc.yale.edu/clusters-at-yale/access/)
