@@ -60,6 +60,12 @@
 - Grouping node resources into partitions 
 - Prioritizing and scheduling jobs 
 
-## Specifically for Yale clusters
+## Setting Up for Yale clusters
 - request an account through [Account Request](https://research.computing.yale.edu/support/hpc/account-request)
 - Submit your SSH key -> follow the instructions here [Quick Start](http://docs.ycrc.yale.edu/clusters-at-yale/access/)
+- then SSH into the cluster
+
+## Useful Commands
+### srun 
+- srun -h -> see all the possible flags with srun command 
+- srun --pty <program name> -> run the program (most of the time, you will use bash which is the shell)
