@@ -69,3 +69,4 @@
 ### srun 
 - srun -h -> see all the possible flags with srun command 
 - srun --pty <program name> -> run the program (most of the time, you will use bash which is the shell)
+- srun --pty -p interactive bash -> partition for allocation or else you run into error (at least for Yale it does)
